@@ -1,0 +1,31 @@
+{
+  "name": "node-core-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic core node application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "prod": "pm2 start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gravity25/node-core-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "pm2"
+  ],
+  "author": "garvit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gravity25/node-core-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gravity25/node-core-boilerplate#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
